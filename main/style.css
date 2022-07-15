@@ -1,0 +1,85 @@
+body {
+  font-family: 'Times New Roman', sans-serif;
+}
+
+nav {
+  width: 204mm;
+  font-size: 18pt;
+  margin: 0 auto;
+  page-break-after: always;
+}
+
+nav > ul:before {
+  content: 'Inhaltsverzeichnis';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+nav * {
+  list-style: none;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul ul {
+  padding-left: 40px;
+}
+
+nav li {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+nav li li {
+  font-size: 1.75rem;
+  font-weight: normal;
+}
+
+nav li li li {
+  font-size: 1.5rem;
+}
+
+nav li li li li {
+  font-style: italic;
+}
+
+article {
+  width: 204mm;
+  font-size: 18pt;
+}
+
+article .pagebreak {
+  page-break-before: always;
+}
+
+article code {
+  font-size: 13pt !important;
+}
+
+article figcaption {
+  font-weight: bold;
+  font-style: italic;
+  font-size: .8em;
+}
+
+article thead tr {
+  background: #e0e0e0;
+}
+
+article tbody tr:nth-child(2n) {
+  background: #f0f0f0;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  color: black;
+}
+
+@media print {
+  article, nav {
+    width: 100%;
+    font-size: 21pt;
+  }
+}
+/*# sourceMappingURL=style.css.map */

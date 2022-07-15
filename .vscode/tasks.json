@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+    "label": "t3_makepdf",
+    "type" :"shell",
+    "command":".\\main\\convert.bat",
+    "problemMatcher":[],
+    "group": {
+        "kind": "build",
+        "isDefault": true
+            }
+        }
+    ]
+}
