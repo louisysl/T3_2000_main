@@ -1,0 +1,18 @@
+<Parameter>
+	<Type>Install/Config</Type> 
+	
+	<ConfigZip>backup</ConfigZip>
+	<HostBaseURL>https://serverB.example.com</HostBaseURL>
+
+	<PackageName>CitrixStoreFront-x64.exe</PackageName>
+	<PackageParameter>-silent -q -quiet</PackageParameter>
+	
+	<CTXCloudCustomerID>AtosInforma2</CTXCloudCustomerID>
+	<CTXCloudClientId>afbe8291-581f-4ff8-b295-e260e062f32e</CTXCloudClientId>
+	<CTXCloudClientSecret>Si6XTYQbQjweQlyYKyQFuw==</CTXCloudClientSecret>
+	<CTXCloudResourceID>e749bfbc-6096-4bd4-8712-fe318ba90974</CTXCloudResourceID>
+	<Vendor>Citrix</Vendor>
+	<Product>Cloud Connector</Product>
+	<PackageName>cwcconnector</PackageName>
+	<InstallerType>exe</InstallerType>
+</Parameter>
