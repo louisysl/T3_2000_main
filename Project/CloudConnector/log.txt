@@ -1,0 +1,41 @@
+﻿**********************
+nStart der Windows PowerShell-Aufzeichnung
+Startzeit: 20220726133017
+Benutzername: WW930\a798583
+RunAs-Benutzer: WW930\a798583
+Konfigurationsname: 
+Computer: LAPTOP-2A779OF7 (Microsoft Windows NT 10.0.18363.0)
+Hostanwendung: C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Prozess-ID: 28616
+PSVersion: 5.1.18362.2212
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.2212
+BuildVersion: 10.0.18362.2212
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS C:\Users\a798583> Import-Module "C:\Users\a798583\OneDrive - Atos\Documents\WindowsPowerShell\Modules\ISESteroids\2.7.1.9\ISESteroids.psd1" -Scope Global -Verbose:$false; Write-Host "Start-Steroids
+ISESteroids 2.0 active (2.7.1.9)"
+>> CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): Name="Stream"; Wert="True"
+PS C:\Users\a798583> ParameterBinding(Out-String): Name="InputObject"; Wert="Start-Steroids
+ISESteroids 2.0 active (2.7.1.9)"
+Start-Steroids
+ISESteroids 2.0 active (2.7.1.9)
+Start-Steroids
+ISESteroids 2.0 active (2.7.1.9)
+Type
+ConfigZip
+HostBaseURL
+PackageName
+PackageParameter
+CTXCloudCustomerID
+CTXCloudClientId
+CTXCloudClientSecret
+CTXCloudResourceID
+Vendor
+Product
+PackageName
+InstallerType
