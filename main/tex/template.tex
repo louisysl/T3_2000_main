@@ -3,12 +3,14 @@
 % We have to use KOMA classes (scrartcl instead of article and scrreprt instead of report as well as scrbook instead of book)
 % More info: https://ctan.org/pkg/koma-script?lang=de
 \input{main/tex/config}
-\documentclass[
-\TFontSize,
-$if(lang)$
-  $babel-lang$,
-$endif$
-]{scrartcl}
+%\documentclass[
+%\TFontSize,
+%$if(lang)$
+%  $babel-lang$,
+%$endif$
+%]{scrartcl}
+
+\documentclass[\TFontSize]{scrartcl}
 
 
 % The following packages are needed for the combined use of Pandoc and XeTeX engine
@@ -70,8 +72,10 @@ $endif$
 
 % Optional packages that Zettlr makes use of
 % fontspec is used to set the different fonts to the user's whishes
+
 \setmainfont{\TFont}
-\setsansfont{Arial}
+
+%\setsansfont{Arial}
 
 % With geometry we can let the user decide on the margin
 \usepackage{geometry}
@@ -181,6 +185,9 @@ pdfborder={0 0 0}
   \centering%
   \originaltabular{#1}}%
   {\endoriginaltabular\endgroup}
+
+  \AtBeginEnvironment{Highlighting}{\setstretch{.9}\KOMAoptions{fontsize=11pt}\raggedright}
+
 
 \begin{document}
 
