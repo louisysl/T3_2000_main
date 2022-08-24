@@ -1,0 +1,9 @@
+<Path>
+	<Source>OU=Servers,OU=PROD,OU=Autobahn,DC=dom1,DC=c-ssi,DC=de</Source>
+	<Rollback></Rollback>
+	<Target>
+		<Target1>OU=DG-Win2k19-Test,OU=CTX,OU=Servers,OU=PROD,OU=Autobahn,DC=dom1,DC=c-ssi,DC=de</Target1>
+		<Target2>testo</Target2>
+		<Target3>gasto</Target3>
+	</Target>
+</Path>
